@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+*{
+   font-family: 'Arvo',serif;
+}
+.navbar-dark .container .navbar-brand,
+.navbar-dark .container .navbar-text
+ {
+   color: rgba(233, 222, 220, 0.993);
+}
+.navbar-dark .container .navbar-brand:hover,
+.navbar-dark .container .navbar-text:hover
+ {
+   color: rgba(124, 114, 111, 0.993);
+ }
+.navbar-dark .navbar-nav .nav-item .nav-link,
+.navbar-dark .navbar-nav .nav-item .nav-link {
+   color: rgba(233, 222, 220, 0.993);
+   font-weight: 800;
+   font-size:18px;
+}
+
+.navbar-dark .navbar-nav .nav-item.active .nav-link,
+.navbar-dark .navbar-nav .nav-item:hover .nav-link {
+   color: rgba(124, 114, 111, 0.993);
+}
+
+.carousel-caption h4{
+   font-size:40px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: aqua;
+}
+
+.container-s{
+   width:80%;
+   margin:auto;
+}
+#newsletter{
+   padding:15px;
+   color:#ffffff;
+   background:#35424a;
+   overflow: hidden;
+}
+.card-title{
+   text-align: center;
+}
+.container-s h4
+{
+   text-align: center;
+}
+.btn{
+   margin-left:46%;
+}
+ul{
+   margin:0;
+   padding:0;
+}
+.lili{
+   list-style: none;
+   float:left;
+   padding:5px;
+   font-size: 30px;
+   margin-left:23%;
+}
+footer{
+   padding:20px;
+   color:#ffffff;
+   background-color:#e8491d;
+   text-align: center;
+}
+
+@media only screen and (max-width:992px){
+   .carousel-caption h4{
+      font-size:32px;
+   }
+}
+@media only screen and (max-width:768px){
+   .carousel-caption h4{
+      font-size:28px;
+   }
+}
+@media only screen and (max-width:600px){
+   .carousel-caption h4{
+      font-size:24px;
+   }
+}
+@media only screen and (max-width:600px){
+   .carousel-caption h4{
+      font-size:20px;
+   }
+}
+
+
+
+
